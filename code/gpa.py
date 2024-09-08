@@ -27,10 +27,9 @@ if gpa >= 0.0 and gpa <= 4.0:
         result = "Academic Probation"
     else:
         result = "Passing"
-    print(f"for GPA {gpa:.3f} Result: {result}")
 else:
     result = "Invalid GPA"
 
-    print(f"for GPA {gpa:.3f} Result: {result}")
+print(f"for GPA {gpa:.3f} Result: {result}")
 
 

@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Kezia
+Sudent Email:  knregis@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+I have completed the assignments and now I know that I need to work with loops and dictionaries more since this assignment took longer than I expected. When working with loops I really wanted to work with for loops because I feel comfortable with for loops, but when I realized that the assignment wanted an infinite loop, a while loop seemed like the better choice. During my confusion I did use Copilot to try and understand why my output only had the last two odd and even numbers in the list, I also used Copilot to explain error that I gotten in regards to the test assignment file. I am stilling having trouble with testing the code, I believe what I wrote for number.py and gpa.py are correct, but I am failing every test expcept def test_should_pass().
