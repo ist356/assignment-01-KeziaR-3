@@ -11,4 +11,28 @@ For example, if the input is:
 The output should be:
 {'odd': [3, 5], 'even': [2, 4, 6]}
 '''
+def nums():
 
+    odd = {}
+    even = {}
+
+    i = 1 
+    while True:
+        vals = int(input("Enter integer values "))
+
+        if vals == 0:
+            print(f" {{'odd': {list(odd.values())}, 'even': {list(even.values())} }}")
+            break
+        
+        elif vals % 2 == 0:
+            even[i] = vals
+
+        else:
+            odd[i] = vals
+
+        i += 1
+
+if __name__ == '__main__':
+    nums()
+  
+        
