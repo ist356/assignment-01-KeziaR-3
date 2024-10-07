@@ -12,18 +12,22 @@ The output should be:
 {'odd': [3, 5], 'even': [2, 4, 6]}
 '''
 
-numbers = {'odd': [], 'even': []}
+
+odd = {}
+even = {}
+
+i = 1 
 while True:
-    num = int(input("Number:"))
-    if num == 0:
+    vals = int(input("Enter integer values "))
+
+    if vals == 0:
+        print(f" {{'odd': {list(odd.values())}, 'even': {list(even.values())}}}")
         break
-    if num % 2 == 0:
-        numbers['even'].append(num)
+    
+    elif vals % 2 == 0:
+        even[i] = vals
+
     else:
-        numbers['odd'].append(num)
+        odd[i] = vals
 
-print(numbers)
-
-
-  
-        
+    i += 1
